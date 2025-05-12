@@ -11,6 +11,7 @@
     --text-white: #ffffff;
     --gray-up-text: #bbb;
     --dark-bg: #343a40;
+    --dark-text: #000000;
     --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     --transition: all 0.3s ease;
 }
@@ -87,7 +88,7 @@ a:hover {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: var(--text-color);
+    color: var(--dark-bg);
     font-weight: 500;
     padding: 0.5rem 1rem;
     transition: var(--transition);
@@ -95,7 +96,9 @@ a:hover {
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-    color: var(--gray-up-text);
+
+    color: var(--primary-color);
+    text-decoration: overline;
 }
 
 .hamburger {
