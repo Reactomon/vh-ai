@@ -108,14 +108,19 @@ a:hover {
 }
 
 .navbar-dark .navbar-nav .nav-link.contact-btn {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     border-radius: 30px;
     padding: 0.5rem 1.5rem;
     margin-left: 0.5rem;
+    color: var(--text-white)
 }
 
 .navbar-dark .navbar-nav .nav-link.contact-btn:hover {
-    background-color: #2980b9;
+    background-color: var(--secondary-color);
+}
+
+.nav-link.contact-btn:hover {
+    text-decoration: none !important;
 }
 
 .logo {
@@ -627,6 +632,12 @@ a:hover {
     .navbar-dark .navbar-nav .nav-link.contact-btn {
         margin-left: 0;
         margin-top: 0.5rem;
+    }
+
+    .navbar-dark .navbar-nav .nav-link:hover,
+    .navbar-dark .navbar-nav .nav-link.active {
+        color: var(--primary-color);
+        text-decoration: underline;
     }
 }
 
