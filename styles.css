@@ -97,6 +97,12 @@ a:hover {
     color: var(--gray-up-text);
 }
 
+.hamburger {
+    background-color:#16a34a;
+    border-radius: 10px;
+    padding: 1.2em;
+}
+
 .navbar-dark .navbar-nav .nav-link.contact-btn {
     background-color: var(--secondary-color);
     border-radius: 30px;
