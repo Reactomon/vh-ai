@@ -8,6 +8,7 @@
     --text-color: #333;
     --light-text: #fff;
     --gray-bg: #f8f9fa;
+    --text-white: #ffffff;
     --gray-up-text: #bbb;
     --dark-bg: #343a40;
     --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -80,7 +81,7 @@ a:hover {
 
 /* Navigation */
 .navbar {
-    background-color: var(--light-color);
+    background-color: var(--text-white);
     padding: 1rem 0;
     transition: var(--transition);
 }
@@ -341,7 +342,7 @@ a:hover {
 }
 
 .footer-logo {
-    height: 50px;
+    height: 67px;
     margin-bottom: 1rem;
     background: white;
     padding: inherit;
