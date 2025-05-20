@@ -125,34 +125,95 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 const toggleBtn = document.getElementById("toggleBtn");
+const toggleBtnHide = document.getElementById("toggleBtnHide");
 const moreText = document.getElementById("moreText");
 
 toggleBtn.addEventListener("click", function () {
   if (moreText.style.display === "none" || moreText.style.display === "") {
     moreText.style.display = "inline";
-    toggleBtn.textContent = "Show Less";
-    toggleBtn.classList.add(".show-more");
+    toggleBtn.style.display = "none";
+    toggleBtnHide.style.display = "inline";
+    moreText.style.display = 'inline';
   } else {
     moreText.style.display = "none";
     toggleBtn.textContent = "Show More";
     toggleBtn.classList.remove("show-more");
+    toggleBtnHide.style.display = "none";
+    moreText.style.display = 'block';
   }
 });
 
+toggleBtnHide.addEventListener("click", function () {
+  if (moreText.style.display === "none" || moreText.style.display === "") {
+    moreText.style.display = "inline";
+    toggleBtn.style.display = "none";
+    toggleBtnHide.style.display = "inline";
+    moreText.style.display = 'inline';
+  } else {
+    moreText.style.display = "none";
+    toggleBtn.style.display = "inline";
+    toggleBtnHide.style.display = "none";
+    moreText.style.display = 'none';
+  }
+});
+
+const toggleBtnHideRobert = document.getElementById("toggleBtnHideRobert");
 const toggleBtnRobert = document.getElementById("toggleBtnRobert");
 const moreTextRobert = document.getElementById("more-description-robert");
 
 toggleBtnRobert.addEventListener("click", function () {
-  if (
-    moreTextRobert.style.display === "none" ||
-    moreTextRobert.style.display === ""
-  ) {
+  if (moreTextRobert.style.display === "none" || moreTextRobert.style.display === "") {
     moreTextRobert.style.display = "inline";
-    toggleBtnRobert.textContent = "Show Less";
-    toggleBtnRobert.classList.add(".show-more");
+    toggleBtnRobert.style.display = "none";
+    toggleBtnHideRobert.style.display = "inline";
+    moreTextRobert.style.display = 'inline';
   } else {
     moreTextRobert.style.display = "none";
     toggleBtnRobert.textContent = "Show More";
     toggleBtnRobert.classList.remove("show-more");
+    toggleBtnHideRobert.style.display = "none";
+    moreTextRobert.style.display = 'block';
   }
 });
+
+toggleBtnHideRobert.addEventListener("click", function () {
+  if (moreTextRobert.style.display === "none" || moreTextRobert.style.display === "") {
+    moreTextRobert.style.display = "inline";
+    toggleBtnRobert.style.display = "none";
+    toggleBtnHideRobert.style.display = "inline";
+    moreTextRobert.style.display = 'inline';
+  } else {
+    moreTextRobert.style.display = "none";
+    toggleBtnRobert.style.display = "inline";
+    toggleBtnHideRobert.style.display = "none";
+    moreTextRobert.style.display = 'none';
+  }
+});
+
+
+
+
+
+
+
+
+
+
+
+// const toggleBtnRobert = document.getElementById("toggleBtnRobert");
+// const moreTextRobert = document.getElementById("more-description-robert");
+
+// toggleBtnRobert.addEventListener("click", function () {
+//   if (
+//     moreTextRobert.style.display === "none" ||
+//     moreTextRobert.style.display === ""
+//   ) {
+//     moreTextRobert.style.display = "inline";
+//     toggleBtnRobert.textContent = "Show Less";
+//     toggleBtnRobert.classList.add(".show-more");
+//   } else {
+//     moreTextRobert.style.display = "none";
+//     toggleBtnRobert.textContent = "Show More";
+//     toggleBtnRobert.classList.remove("show-more");
+//   }
+// });

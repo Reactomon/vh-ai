@@ -353,7 +353,7 @@ a:hover {
   margin-bottom: 0.5rem;
 }
 .team-member-info h5 {
-  color: var(--secondary-color);
+  color: var(--primary-color);
   font-weight: 500;
   margin-bottom: 1.5rem;
 }
@@ -619,4 +619,27 @@ a:hover {
 .lead {
   font-weight: 600;
   font-size: 2rem;
+}
+
+.show-more-button {
+  background-color: var(--primary-color);
+  border: none;
+  color: var(--light-color);
+  border-radius: 1rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 2px 18px;
+  font-weight: bold;
+  margin-top: 7px;
+}
+
+.show-less-button {
+  background-color: var(--primary-color);
+  border: none;
+  color: var(--light-color);
+  border-radius: 1rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 2px 18px;
+  font-weight: bold;
+  margin-top: 7px;
+  display: none;
 }
