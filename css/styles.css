@@ -644,3 +644,8 @@ a:hover {
   margin-top: 7px;
   display: none;
 }
+
+.introduction {
+  line-height: 2.2rem;
+  font-size: 1.3rem;
+}
