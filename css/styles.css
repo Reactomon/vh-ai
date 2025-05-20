@@ -159,6 +159,7 @@ a:hover {
 }
 .typewriter-container {
   display: flex;
+  justify-content: center;
   position: relative;
 }
 .typewriter {
@@ -197,7 +198,7 @@ a:hover {
 }
 .page-header h1 {
   font-size: 3rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
 }
 .page-header .lead {
   font-size: 1.25rem;
