@@ -649,3 +649,8 @@ a:hover {
   line-height: 2.2rem;
   font-size: 1.3rem;
 }
+
+.ref-featured {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
